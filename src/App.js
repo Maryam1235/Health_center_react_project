@@ -5,7 +5,9 @@ import Home from './pages/Home';
 import Doctors from './pages/Doctors';
 import News from './pages/News';
 import Appointment from './pages/Appointment';
+import Login from './pages/Login';
 import Index from './pages/Index';
+import Register from './pages/Register';
 import {BrowserRouter , Routes, Route} from 'react-router-dom';
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/index" element={<Index />} />
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/appointment" element={<Appointment />} />
       </Routes>
     </BrowserRouter>
